@@ -54,6 +54,8 @@ body{
 
 #foto{
     max-height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .input{
