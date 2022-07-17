@@ -19,6 +19,7 @@ body{
     width: 1092px;
     height: 614px;
     border-radius: 25px;
+    box-shadow: 10px 10px #575757;
 }
 
 #kiri{
@@ -31,16 +32,14 @@ body{
     justify-content: center;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    
    
 }
 
 #kanan{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(19,255,202);
     height: 100%;
     width: 50%;
     float: right;
-    display: flex;
     align-items: center;
     justify-content: center;
     border-top-right-radius: 25px;
@@ -48,15 +47,26 @@ body{
 }
 
 #login{
-    background-color: rgb(255, 255, 255);
-    height: 85%;
-    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 96%;
+    width: 100%;
+}
+
+#close{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
 }
 
 #foto{
-    max-height: 100%;
+    width: 100%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
 .input{
@@ -69,16 +79,24 @@ body{
     padding-left: 22px;
 }
 
+#keterangan{
+    padding-left: 17%;
+    display: flex;
+    align-content: center;
+}
+
 #barisemail{
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #barispass{
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #barissub{
@@ -93,6 +111,7 @@ body{
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
