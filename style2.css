@@ -2,6 +2,10 @@ body{
     font-family: 'Alata', sans-serif;
 }
 
+h1{
+    font-size: 40px;
+}
+
 #page{
     position: absolute;
     top: 0px;
