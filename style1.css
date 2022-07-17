@@ -2,6 +2,18 @@ body{
     font-family: 'Alata', sans-serif;
 }
 
+h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+#keterangan{
+    padding-left: 17%;
+    display: flex;
+    align-content: center;
+}
+
+
 #page{
     position: absolute;
     top: 0px;
@@ -19,6 +31,7 @@ body{
     width: 1092px;
     height: 614px;
     border-radius: 25px;
+    box-shadow: 10px 10px #575757;
 }
 
 #kiri{
@@ -39,17 +52,25 @@ body{
     height: 100%;
     width: 50%;
     float: right;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
 #login{
     background-color: rgb(255, 255, 255);
-    height: 85%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    float: left;
+    margin-bottom: 60px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#close{
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
 }
 
 #foto{
@@ -72,12 +93,14 @@ body{
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #barispass{
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #barissub{
